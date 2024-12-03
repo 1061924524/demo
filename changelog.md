@@ -1,11 +1,13 @@
 # demo
 
-## release v0.0.5
+## release v0.0.7
 
-* release v0.0.5
+* release v0.0.7
+
+<INSERT>, <NAME>, <HERE>, <USING>, <GITHUB>, <HANDLE>
 
 # demo
 
-## v0.0.1
+## release v0.0.6
 
-* this is test
+* release v0.0.6
