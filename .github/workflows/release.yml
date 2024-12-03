@@ -1,0 +1,21 @@
+name: auto build release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkou@v2
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ test }}
+          body_path: ./changelog.md
+          file: |
+            ./changelog.md
